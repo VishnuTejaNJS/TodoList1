@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media(min-width:367px){
+    .main{
+        margin:16px;
+        padding: 8px;
+        text-align: center;
+        color: aliceblue;
+        background-color: lightseagreen;
+        box-shadow: 2px 5px 5px rgba(0,0,0,0.7);
+        border-radius: 30px;
+        border: none;
+        width:65%;
+        margin-left: 14vh;
+    }
+    div h1{
+        font-size: 2.3rem;
+    }
+    #main1{
+        margin:10px;
+    }
+    #input{
+        color: aliceblue;
+        background-color: lightseagreen;
+        border: none;
+        border-bottom: 1px solid aliceblue;
+        border-left: 1px solid aliceblue;
+        width: 60%;
+        font-size: 0.9rem;
+        margin-right: 10px;
+        border-radius: 30px;
+        padding-left: 5px;
+    }
+    #input::placeholder{
+        color: aliceblue;
+        
+    }
+    #btn{
+        padding: 4px;
+        width: 30%;
+        font-size: 0.9rem;
+        border: none;
+        border-radius: 30px;
+    }
+    #btn:hover{
+        cursor: pointer;
+        background-color: blue;
+        color: aliceblue;
+        transform: scale(1.02);
+    }
+
+}
+@media(min-width:767px){
+    .main{
+        width: 60%;
+        margin-left: 20vh;
+    }
+    #input{
+        font-size: 1rem;
+    }
+    #btn{
+        width: 20%;
+        font-size: 1rem;
+    }
+}
+@media(min-width:1024px){
+    .main{
+        width: 50%;
+        margin-left: 48vh;
+    }
+    #input{
+        font-size: 1.2rem;
+    }
+    #btn{
+        width: 10%;
+        font-size: 1.2rem;
+    }
+}
